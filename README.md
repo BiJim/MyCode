@@ -23,3 +23,7 @@ xxx
     * 二级圆点（开头tab）
         * 三级圆点  
 ![皮卡丘](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535090895556&di=d859d1b5d2c811250fe4afe35a86b1cc&imgtype=0&src=http%3A%2F%2Fb.7k7kimg.cn%2Fattachment%2Fforum%2F201401%2F27%2F114510icjddjghk9wqcqwh.jpg)
+  
+```java
+public static void main(String[] args){}//java
+public static final String H="Hello";
