@@ -1,4 +1,4 @@
-package com.demo.zbj.mycode.custom;
+package com.demo.zbj.mycode.custom.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -39,8 +39,24 @@ public class CircleSportView extends View {
     }
 
     @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+//        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        int width = (int) (2* (RADIUS + DisplayUtils.dp2px(10)));
+        int height= (int) (2* (RADIUS + DisplayUtils.dp2px(10)));
+        //childMeasuredState表示子view的specMode  31，32位表示宽的mode， 15，16位表示高的mode
+        //如果childMeasuredState不传0，以下方法得出的结果是包含mode state和 size的
+        //需要&View.MEASURED_STATE_MASK 才能得到mode
+        // &View.MEASURED_SIZE_MASK 才能得到size
+        int onlyWidth = resolveSizeAndState(width, widthMeasureSpec, 0);
+        int onlyHeight = resolveSizeAndState(height, heightMeasureSpec, 0);
+        setMeasuredDimension(onlyWidth,onlyHeight);
+
+    }
+
+    @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
+        System.out.println(getWidth()+"--"+getHeight());
         rectF = new RectF(getWidth() / 2 - RADIUS,
                 getHeight() / 2 - RADIUS,
                 getWidth() / 2 + RADIUS,

@@ -5,4 +5,36 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="west_lake_description">Introduction pierce the scenic West Lake in Hangzhou, south of the Five Dock YunQi, the Hollywood landscape of wooded hills, Bamboo-shaded, streams Ding Dong. very cool. Penny YunXi one kilometer long track flanked by Bamboo-shaded, meandering paths depth murmur QingXi according trails, Jiao graceful blend of birds from the forest out, and the whole environment was quiet cool and downtown, particularly Health and fitness feel relaxed.
         -----------西湖位于五云山南麓的云栖坞里，为林木茂盛的山坞景观，翠竹成荫，溪流叮咚，清凉无比。长一公里的云栖竹径，两旁翠竹成荫，小径蜿蜒深入，潺潺清溪依径而下，娇婉动听的鸟声自林中传出，整个环境幽静清凉，与闹市相比，格外使人感到恰适轻松，爽心悦目.</string>
+
+    <string-array name="color_text_view_bg">
+        <item>#FF72BE</item>
+        <item>#FFA21A</item>
+        <item>#4AFF48</item>
+        <item>#FF6CD6</item>
+        <item>#42C0FF</item>
+        <item>#5A595A</item>
+    </string-array>
+
+    <string-array name="songs">
+        <item>二十二</item>
+        <item>大女人</item>
+        <item>勉为其难</item>
+        <item>难念的经</item>
+        <item>蝴蝶</item>
+        <item>初爱</item>
+        <item>彩虹</item>
+        <item>卡路里</item>
+        <item>魔鬼中的天使</item>
+        <item>突然想起你(Live)</item>
+        <item>Wake Me Up</item>
+        <item>Waiting For Love</item>
+        <item>爱与诚</item>
+        <item>你一定要是个孩子</item>
+        <item>流星雨</item>
+        <item>贝加尔湖畔</item>
+        <item>北极星的眼泪</item>
+        <item>其实都没有</item>
+        <item>月半小夜曲</item>
+        <item>Susan说</item>
+    </string-array>
 </resources>

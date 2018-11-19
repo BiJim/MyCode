@@ -1,4 +1,4 @@
-package com.demo.zbj.mycode.custom;
+package com.demo.zbj.mycode.custom.view;
 
 import android.annotation.TargetApi;
 import android.content.Context;

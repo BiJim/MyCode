@@ -1,4 +1,4 @@
-package com.demo.zbj.mycode.custom;
+package com.demo.zbj.mycode.custom.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;

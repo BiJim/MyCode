@@ -1,6 +1,7 @@
 package com.demo.zbj.mycode.util;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
@@ -28,5 +29,9 @@ public class Utils {
         options.inTargetDensity =  width;
         options.inJustDecodeBounds = false;
         return BitmapFactory.decodeResource(context.getResources(), resId, options);
+    }
+
+    public static float getZForCamera(int num) {
+        return num * Resources.getSystem().getDisplayMetrics().density;
     }
 }
